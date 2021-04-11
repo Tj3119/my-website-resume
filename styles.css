@@ -1,0 +1,440 @@
+/* -------------------------------- All Pages CSS Applied ----------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik","Arial",sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a:visited {
+    color: inherit;
+}
+#body-1 {
+    background: linear-gradient(to bottom left, #191a1e 0%,  #191a1e 75%, white 50%, white 100%);
+}
+
+#body-2 {
+    background: linear-gradient(to top left, #191a1e 0%,  #191a1e 78%, white 50%, white 100%);
+}
+
+#body-3 {
+    background: linear-gradient(to bottom right, #191a1e 0%,  #191a1e 81%, white 50%, white 100%);
+}
+
+#body-4 {
+    background: linear-gradient(to top right, #191a1e 0%,  #191a1e 81%, white 50%, white 100%);
+}
+
+
+/*----------------------- Flex & Grid Page 1 -------------------------------------------- */
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: #929393;
+    position: relative;
+}
+
+
+/* -------------------------- Main CSS Styles Page 1 ----------------------------------------- */
+
+#info {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+}
+
+
+#page-1 {
+    position: relative;
+    height: 90vh;
+    margin: 0;
+}
+
+.nav {
+    padding: 10px;
+    margin: 10px 22px 0 22px;
+    text-decoration: none;
+    font-size: 21px;
+}
+  
+.home {
+    margin-right: auto;
+}
+
+.home:hover {
+    border: 2px solid #4b6cc1;
+    border-radius: 30px;
+    color: white;
+    background: #4b6cc1;
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+.about:hover {
+    text-decoration: underline;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.work:hover {
+    text-decoration: underline;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.intro {
+    text-align: center;
+    font-size: 22px;
+    color: #929393;
+}
+
+#page-1 img {
+   position: absolute;
+   height: 190px;
+   bottom: -40px;
+   left: -30px;
+   transform: rotate(35deg);
+   z-index: 1;
+}
+
+
+/* ------------------------------------- Page 2 -----------------------------------------*/
+
+
+/* ------------------------------------- Flex Box & Grid Page 2 -----------------------------------------*/
+
+#page-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 85%;
+    height: 64vh;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+/* ------------------------------------- Main CSS Page 2 -----------------------------------------*/
+
+#about-header {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    margin: 0;
+}
+
+.box {
+    height: 480px;
+    width: 400px;
+	color: #fff;
+	padding: 15px;
+	margin: 5px;	
+}
+
+.my-info {
+    align-self: center;
+    color: #929393;
+    text-align: center;
+    line-height: 35px;
+}
+
+.my-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.tj {
+    font-size: 25px;
+}
+.pic {
+    background-image: url(/images/tj.JPG);
+    background-size: 100%;
+    box-shadow: 9px -1px 12px 1px rgba(0,0,0,0.74);
+    border-radius: 10px;
+}
+
+.foot {
+    text-align: center;
+    margin: 20px;
+    color: #929393;
+}
+
+/* ----------------------------Page 3 ---------------------------------------- */
+/* ----------------------------Page 3 Flex or Grid ------------------------------ */
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 375px);
+    grid-template-rows: repeat(auto-fill, 375px);
+    grid-auto-rows: 375px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    overflow: auto;
+    height: 375px;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+
+/* ----------------------------Page 3 Main CSS---------------------------------------- */
+
+.pg3-title {
+    text-align: center;
+    font-size: 3.1rem;
+    color: white;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.email-pg3:hover {
+    color: inherit;
+}
+
+/* ----------------------------Page 4 ---------------------------------------- */
+/* ----------------------------Page 4 Flex or Grid ------------------------------ */
+#page-4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 85%;
+    height: 80vh;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+#bottom-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ----------------------------Page 4 Main CSS---------------------------------------- */
+.pgn4:hover {
+    color: #929393;
+}
+
+#status {
+    width: 500px;
+    height: 422px;
+    align-self: center;
+    background-image: url(/images/avatar.PNG);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: 220px;
+    /* border: 1px solid blue; */
+}
+
+#client {
+    width: 500px;
+    height: 422px;
+    align-self: center;
+    /* border: 1px solid blue; */
+}
+
+.contact-me {
+    text-align: center;
+    font-size: 4.5rem;
+    color: #929393;
+}
+
+.new-clients {
+    text-align: center;
+    margin: 15px;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+}
+
+#form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input {
+    height: 40px;
+    width: 20rem;
+    margin: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.textarea {
+    width: 400px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.submit {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #191a1e;
+    color: #929393;
+    border: none;
+    outline:none;
+   
+}
+
+.submit:hover {
+    border: 2px solid #4b6cc1;
+    border-radius: 30px;
+    color: white;
+    background: #4b6cc1;
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+
+#bottom{
+    width: 94%;
+    height: 40px;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 4px;
+    /* border: 1px solid blue; */
+}
+
+#bottom-foot > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #929393;
+    padding: 4px;
+}
+
+#bottom-foot > a:hover {
+    color: white;
+}
+
+.twitter::before {
+    content: url(/images/twitter.png);
+    padding-right: 6px;
+    vertical-align: -4px;
+    
+}
+
+.instagram::before {
+    content: url(/images/instagram.png);
+    padding-right: 6px;
+    vertical-align: -4px;
+}
+
+.email::before {
+    content: url(/images/email.png);
+    padding-right: 6px;
+    vertical-align: -4px;
+}
+
+/* ----------------------- Media Quarries ---------------------------------- */
+
+/* ----------------------- Media Quarries Page 1 ---------------------------------- */
+
+@media screen and (min-width: 700px) {
+   
+    #page-1 img {
+        transform: rotate(1deg);
+        left: -35px;
+        bottom: -20px;
+    }
+   
+
+    .name {
+    font-size: 55px;
+    }
+
+    .title {
+    font-size: 60px;
+    }
+
+    .intro {
+    font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-height: 605px) {
+
+    .title {
+        color: #929393;
+    }
+}
+
+/* ----------------------- Media Quarries Page 4 ---------------------------------- */
+
+@media screen and (max-width: 529px) {
+
+    .contact-me {
+        font-size: 4.2rem;
+    }
+
+}
+
+@media screen and (min-width: 1177px) {
+
+    #bottom {
+        bottom: 40px;
+    }
+
+    #page-4 {
+        position: absolute;
+        top: 10em;
+        right: 8em;
+    }
+
+    #status {
+        background-position-y: 150px;
+}
+
+@media screen and (max-width: 1177px) {
+
+    #foot {
+        display: none;
+    }
+}
